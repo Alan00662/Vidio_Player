@@ -1,4 +1,0 @@
-本文件夹存放的是CPU内部集成的外设控制器的驱动代码，可供app或者board_dev中的文件使用。
-
-    同一种外设控制器CPU可以拥有多个，比如STM32F103ZET6有5个UART控制器、1个FSMC控制器， 
-一个设备device可以挂接在不同的Controller上，注意linux内核驱动中这种编程实现的使用。

@@ -1,1 +1,0 @@
-本文件夹存板子上一些设备驱动，比如AT24CXX、SPI Flash、SDcard、LCD等,它们可能需要hardware中CPU的相关外设的支持。
