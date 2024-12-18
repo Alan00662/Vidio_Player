@@ -1,0 +1,14 @@
+lcd_v5   2023-04-12    精英板所有例程已完成更新。
+（1）增加了st7789 与 LGDP4535；
+（2）修改了lcd_init()函数中延时时间短导致的初始化BUG，把delay_ms(20)-->delay_ms(50)即可。
+
+lcd_v6   2023-10-15
+（1）增加了HX8347D驱动。
+（2）lcd dma控制做了一些修改：
+	【a】增加了lcd_dma_trans_area()函数;
+	【b】lcd_dma_wait_busy()改为lcd_dma_trans_release()。
+     此外，lcd_dma_init()函数在lcd_init时调用,即lcd dma全程开启，使用后也不再deinit。
+
+
+
+
